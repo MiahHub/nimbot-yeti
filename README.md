@@ -35,10 +35,11 @@ THEN I am able to successfully create, update, and delete data in my database
 ## Installation/Usage
 
 Clone the repository onto your local machine and note that the project requires the following dependencies:
-npm install mysql12
-npm install express
-npm install dotenv
-npm install sequelize
+
+'npm install mysql12'
+'npm install express'
+'npm install dotenv'
+'npm install sequelize'
 
 ## Mockup
 
@@ -47,3 +48,5 @@ npm install sequelize
 Developer GitHub: <a href=https://github.com/MiahHub/nimbot-yeti></a>
 
 Developer Email: <a href=https://github.com/MiahHub></a>
+
+## License [ISC License](http://opensource.org/licenses/ISC)
