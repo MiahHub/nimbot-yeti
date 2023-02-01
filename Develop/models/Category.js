@@ -8,14 +8,14 @@ Category.init(
   {
     id: {
       type: DataTypes.INTEGER,
-      AllowNull: false,
+      allowNull: false,
       primaryKey: true,
-      autoIncrement: true
+      autoIncrement: true,
     },
     category_name: {
-      type: dataTypes.STRING,
-    }
-  
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
   },
   {
     sequelize,
