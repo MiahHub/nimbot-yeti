@@ -10,21 +10,22 @@ ProductTag.init(
       type: DataTypes.INTEGER,
       primaryKey: true,
       allowNull: false,
-      autoIncrement: true
+      autoIncrement: true,
     },
     tag_id: {
       type: DataTypes.INTEGER,
       references: {
         model: 'Tag',
-        key: 'id'
-      }
+        key: 'id',
+      },
     },
     product_id: {
-      type: dataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       references: {
         model: 'Product',
         key: 'id',
-      }
+      },
+    },
   },
   {
     sequelize,
